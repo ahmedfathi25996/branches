@@ -41,7 +41,7 @@ class LoginController extends Controller
     {
         echo "test messages with conflict test test test"; //by master
         echo "test messages conflict"; //by test
-        ecjo "another one";
+        echo "another one";
     }
 
 }
