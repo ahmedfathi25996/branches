@@ -40,6 +40,7 @@ class LoginController extends Controller
     public function test()
     {
         echo "test messages with conflict"; //by master
+        echo "test messages conflict"; //by test
     }
 
 }
