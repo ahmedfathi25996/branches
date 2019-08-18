@@ -37,5 +37,9 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+    public function test()
+    {
+        echo "test messages";
+    }
 
 }
