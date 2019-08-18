@@ -39,7 +39,7 @@ class LoginController extends Controller
 
     public function test()
     {
-        echo "test messages";
+        echo "test messages with conflict"; //by master
     }
 
 }
