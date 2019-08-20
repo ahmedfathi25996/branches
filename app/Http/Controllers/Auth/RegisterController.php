@@ -71,7 +71,7 @@ class RegisterController extends Controller
         ]);
     }
 
-    public function testFunction()
+    public function testFunction($test)
     {
         echo "test messages";
     }
