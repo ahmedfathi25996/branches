@@ -37,11 +37,5 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    public function testConfilctMessage()
-    {
-        echo "test messages with conflict test test test"; //by master
-        echo "test messages conflict"; //by test
-        echo "another one";
-    }
 
 }
